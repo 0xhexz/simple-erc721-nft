@@ -1,0 +1,15 @@
+{
+  "name": "simple-erc721-nft",
+  "version": "1.0.0",
+  "description": "A simple ERC721 NFT smart contract built using Hardhat.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.12.0"
+  }
+}
