@@ -16,3 +16,4 @@ contract MyNFT is ERC721URIStorage {
         return newId;
     }
 }
+// Talent.app verification update
